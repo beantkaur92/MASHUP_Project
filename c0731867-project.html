@@ -20,9 +20,12 @@
 <script>
 	var map;
 	var parks = [
-		{"park":"Yellowstone","coords":[44.4280,-110.5885]},
-        {"park":"Glacier","coords":[48.7596, -113.7870]}
-       
+    {"park":"Yellowstone","coords":[44.4280,-110.5885]},
+        {"park":"Glacier","coords":[48.7596, -113.7870]},
+        {"park":"Lambton College","coords":[43.773324, -79.336034]},
+        {"park":"Shri Guru singh sabha gurudwara","coords":[43.708684, -79.651272]},
+        {"park":"3086 morning star drive","coords":[43.711817, -79.647604]},
+        {"park":"khalsa Darbar","coords":[43.676823, -79.677561]}
 		];
 
 	function initMap() {
@@ -32,7 +35,7 @@
 			mapTypeId: 'terrain'
 		});
 
-		mashParks(parks); 
+		mashParks(parks);
 	}
 
 	function mashParks(results) {
